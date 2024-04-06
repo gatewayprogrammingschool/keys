@@ -1,5 +1,6 @@
 .pitch {
   margin: 0;
+  position: relative;
 }
 
 .pitch-c {
@@ -22,4 +23,7 @@
 }
 .pitch-b {
   background: #ea57b2;
+}
+.pitch-c2 {
+  background: #e33059;
 }
