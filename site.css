@@ -1,0 +1,25 @@
+.pitch {
+  margin: 0;
+}
+
+.pitch-c {
+  background: #e33059;
+}
+.pitch-d {
+  background: #f7943d;
+}
+.pitch-e {
+  background: #edd929;
+}
+.pitch-f {
+  background: #95c631;
+}
+.pitch-g {
+  background: #11826d;
+}
+.pitch-a {
+  background: #5b37cc;
+}
+.pitch-b {
+  background: #ea57b2;
+}
