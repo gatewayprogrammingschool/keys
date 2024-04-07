@@ -6,9 +6,10 @@ body {
 .pitch {
   margin: 0;
   position: relative;
-  width: 100%;  
+  left: 0;
+  right: 0;  
   height: 12.5%;
-  font-size: 16pt;
+  font-size: 32pt;
   font-weight: bold;
   text-align: center;
 }
