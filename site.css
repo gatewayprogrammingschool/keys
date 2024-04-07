@@ -1,29 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .pitch {
   margin: 0;
   position: relative;
+  width: 100%;  
 }
 
 .pitch-c {
   background: #e33059;
+  top: 0;
 }
 .pitch-d {
   background: #f7943d;
+  top: 12.5%;
 }
 .pitch-e {
   background: #edd929;
+  top: 25%;
 }
 .pitch-f {
   background: #95c631;
+  top: 37.5%;
 }
 .pitch-g {
   background: #11826d;
+  top: 50%;
 }
 .pitch-a {
   background: #5b37cc;
+  top: 62.5%;
 }
 .pitch-b {
   background: #ea57b2;
+  top: 75%;
 }
 .pitch-c2 {
   background: #e33059;
+  top: 87.5%;
 }
