@@ -8,7 +8,6 @@ body {
   position: relative;
   left: 0;
   right: 0;  
-  height: 12.5%;
   font-size: 32pt;
   font-weight: bold;
   text-align: center;
@@ -17,43 +16,88 @@ body {
   align-items: center;
 }
 
-.pitch-c {
+.major {
+  height: 12.5%;
+}
+
+.chromatic {
+  height: 12.5%;
+}
+
+.major-c {
   background: #e33059;
   color: white;
   top: 0;
 }
-.pitch-d {
+.major-d {
   background: #f7943d;
   color: black;
   top: 12.5%;
 }
-.pitch-e {
+.major-e {
   background: #edd929;
   color: black;
-  top: 25%;
+  top: 9.1%;
 }
-.pitch-f {
+.major-f {
   background: #95c631;
   color: black;
   top: 37.5%;
 }
-.pitch-g {
+.major-g {
   background: #11826d;
   color: white;
   top: 50%;
 }
-.pitch-a {
+.major-a {
   background: #5b37cc;
   color: white;
   top: 62.5%;
 }
-.pitch-b {
+.major-b {
   background: #ea57b2;
   color: black;
   top: 75%;
 }
-.pitch-c2 {
+.major-c2 {
   background: #e33059;
   color: white;
   top: 87.5%;
+}
+
+
+.chromatic-c {
+  background: #e33059;
+  color: white;
+  top: 0;
+}
+.chromatic-d {
+  background: #f7943d;
+  color: black;
+  top: 12.5%;
+}
+.chromatic-e {
+  background: #edd929;
+  color: black;
+  top: 25%;
+}
+.chromatic-f {
+  background: #95c631;
+  color: black;
+  top: 37.5%;
+}
+.chromatic-g {
+  background: #11826d;
+  color: white;
+  top: 50%;
+}
+.chromatic-a {
+  background: #5b37cc;
+  color: white;
+  top: 62.5%;
+}
+.chromatic-b {
+  background: #ea57b2;
+  color: black;
+  top: 75%;
 }
