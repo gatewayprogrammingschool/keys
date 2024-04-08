@@ -3,6 +3,12 @@ body {
   padding: 0;
 }
 
+.viewportDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .pitch {
   margin: 0;
   position: relative;
