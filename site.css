@@ -72,7 +72,7 @@ body {
   top: 11%;
 }
 .chromatic-cs {
-  background: #e33059;
+  background: #f75839;
   color: white;
   top: 18.4%;
 }
@@ -82,7 +82,7 @@ body {
   top: 25.8%;
 }
 .chromatic-ds {
-  background: #f7943d;
+  background: #f2b82c;
   color: black;
   top: 33.2%;
 }
@@ -97,7 +97,7 @@ body {
   top: 48%;
 }
 .chromatic-fs {
-  background: #95c631;
+  background: #56a754;
   color: black;
   top: 55.4%;
 }
@@ -107,7 +107,7 @@ body {
   top: 62.8%;
 }
 .chromatic-gs {
-  background: #11826d;
+  background: #3160a3;
   color: white;
   top: 70.2%;
 }
@@ -117,7 +117,7 @@ body {
   top: 77.6%;
 }
 .chromatic-as {
-  background: #5b37cc;
+  background: #a347bf;
   color: white;
   top: 85%;
 }
