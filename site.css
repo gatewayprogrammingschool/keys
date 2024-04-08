@@ -23,12 +23,14 @@ body {
 
 .major {
   font-size: 24pt;
-  height: 11.1%;
+  /*height: 11.1%;*/
+  flex-grow: 1;
 }
 
 .chromatic {
   font-size: 20pt;
-  height: 7.5%;
+  /* height: 7.5%; */
+  flex-grow: 1;
 }
 
 .major-c {
