@@ -3,6 +3,19 @@
     <link rel="stylesheet" type="text/css" href="/keys/site.css">
   </head>
   <body>
+    <button type='button' onclick='showMajor()'>Major</button>
+    <button type='button'  onclick='showChromatic()'>Chromatic</button>
+    <src type='text/javascript'>
+      function showMajor() {
+        document.getElementById('major').style='display: block;';
+        document.getElementById('chromatic').style='display: none;';
+      }
+
+      function showChromatic() {
+        document.getElementById('major').style='display: none;';
+        document.getElementById('chromatic').style='display: block;';
+      }
+    </src>
     <div id="major">
       <div class="pitch major major-c">C 8</div>
       <div class="pitch major major-b">B 7</div>
@@ -13,7 +26,7 @@
       <div class="pitch major major-d">D 2</div>
       <div class="pitch major major-c">C 1</div>
     </div>
-    <div id="chromatic">
+    <div id="chromatic" style='display: none;'>
       <div class="pitch chromatic chromatic-b">B 7</div>
       <div class="pitch chromatic chromatic-as">A# Bb</div>
       <div class="pitch chromatic chromatic-a">A 6</div>
