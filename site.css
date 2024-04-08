@@ -8,7 +8,6 @@ body {
   position: relative;
   left: 0;
   right: 0;  
-  font-size: 24pt;
   font-weight: bold;
   text-align: center;
   display: flex;
@@ -17,10 +16,12 @@ body {
 }
 
 .major {
+  font-size: 24pt;
   height: 11.1%;
 }
 
 .chromatic {
+  font-size: 20pt;
   height: 7.5%;
 }
 
