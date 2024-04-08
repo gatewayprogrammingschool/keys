@@ -8,33 +8,33 @@
   </head>
   <body class='mdc-typography'>
     <dir style='margin-block-start: 0; margin-block-end: 0; padding-inline-start: 0; display: flex;flex-wrap: nowrap;align-content: center;justify-content: space-evenly;align-items: center;flex-direction: row;'>
-      <button id='btn-major' class='mdc-button md-filled-button' type='button' onclick='showMajor()'>Major</button>
+      <button id='btn-major' class='mdc-button mdc-button--outlined' type='button' onclick='showMajor()'>Major</button>
       <button id='btn-chromatic' class='mdc-button' type='button' onclick='showChromatic()'>Chromatic</button>
       <button id='btn-pentatonic' class='mdc-button' type='button' onclick='showPentatonic()'>Pentatonic</button>
     </dir>
     <script type='text/javascript'>
       function showMajor() {
-        const el = document.querySelector('.md-filled-button');
-        el.classList.remove("md-filled-button");
-        document.getElementById('btn-major').classList.add("md-filled-button");
+        const el = document.querySelector('.mdc-button--outlined');
+        el.classList.remove("mdc-button--outlined");
+        document.getElementById('btn-major').classList.add("mdc-button--outlined");
         document.getElementById('major').style='display: block;';
         document.getElementById('chromatic').style='display: none;';
         document.getElementById('pentatonic').style='display: none;';
       }
 
       function showChromatic() {
-        const el = document.querySelector('.md-filled-button');
-        el.classList.remove("md-filled-button");
-        document.getElementById('btn-chromatic').classList.add("md-filled-button");
+        const el = document.querySelector('.mdc-button--outlined');
+        el.classList.remove("mdc-button--outlined");
+        document.getElementById('btn-chromatic').classList.add("mdc-button--outlined");
         document.getElementById('major').style='display: none;';
         document.getElementById('chromatic').style='display: block;';
         document.getElementById('pentatonic').style='display: none;';
       }
 
       function showPentatonic() {
-        const el = document.querySelector('.md-filled-button');
-        el.classList.remove("md-filled-button");
-        document.getElementById('btn-pentatonic').classList.add("md-filled-button);
+        const el = document.querySelector('.mdc-button--outlined');
+        el.classList.remove("mdc-button--outlined");
+        document.getElementById('btn-pentatonic').classList.add("mdc-button--outlined");
         document.getElementById('major').style='display: none;';
         document.getElementById('chromatic').style='display: none;';
         document.getElementById('pentatonic').style='display: block;';
