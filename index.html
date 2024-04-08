@@ -6,16 +6,25 @@
     <dir style='height: 5%; display: flex;'>
       <button type='button' onclick='showMajor()'>Major</button>
       <button type='button' onclick='showChromatic()'>Chromatic</button>
+      <button type='button' onclick='showPentatonic()'>Pentatonic</button>
     </dir>
     <script type='text/javascript'>
       function showMajor() {
         document.getElementById('major').style='display: block;';
         document.getElementById('chromatic').style='display: none;';
+        document.getElementById('pentatonic').style='display: none;';
       }
 
       function showChromatic() {
         document.getElementById('major').style='display: none;';
         document.getElementById('chromatic').style='display: block;';
+        document.getElementById('pentatonic').style='display: none;';
+      }
+
+      function showPentatonic() {
+        document.getElementById('major').style='display: none;';
+        document.getElementById('chromatic').style='display: none;';
+        document.getElementById('pentatonic').style='display: block;';
       }
     </script>
     <div id="major">
@@ -24,6 +33,14 @@
       <div class="pitch major major-a">A 6</div>
       <div class="pitch major major-g">G 5</div>
       <div class="pitch major major-f">F 4</div>
+      <div class="pitch major major-e">E 3</div>
+      <div class="pitch major major-d">D 2</div>
+      <div class="pitch major major-c">C 1</div>
+    </div>
+    <div id="pentatonic" style='display:none'>
+      <div class="pitch major major-c">C 8</div>
+      <div class="pitch major major-a">A 6</div>
+      <div class="pitch major major-g">G 5</div>
       <div class="pitch major major-e">E 3</div>
       <div class="pitch major major-d">D 2</div>
       <div class="pitch major major-c">C 1</div>
@@ -40,7 +57,7 @@
       <div class="pitch chromatic chromatic-ds">D# Eb</div>
       <div class="pitch chromatic chromatic-d">D 2</div>
       <div class="pitch chromatic chromatic-cs">C# Db</div>
-      <div class="pitch chromatic-c">C 1</div>
+      <div class="pitch chromatic chromatic-c">C 1</div>
     </div>
   </body>
 </html>
