@@ -21,108 +21,88 @@ body {
 }
 
 .chromatic {
-  height: 8.33%;
+  height: 7.9%;
 }
 
 .major-c {
   background: #e33059;
   color: white;
-  top: 11%;
 }
 .major-d {
   background: #f7943d;
   color: black;
-  top: 22%;
 }
 .major-e {
   background: #edd929;
   color: black;
-  top: 33%;
 }
 .major-f {
   background: #95c631;
   color: black;
-  top: 44%;
 }
 .major-g {
   background: #11826d;
   color: white;
-  top: 55%;
 }
 .major-a {
   background: #5b37cc;
   color: white;
-  top: 66%;
 }
 .major-b {
   background: #ea57b2;
   color: black;
-  top: 77%;
 }
 .major-c2 {
   background: #e33059;
   color: white;
-  top: 88%;
 }
 
 
 .chromatic-c {
   background: #e33059;
   color: white;
-  top: 11%;
 }
 .chromatic-cs {
   background: #f75839;
   color: white;
-  top: 18.4%;
 }
 .chromatic-d {
   background: #f7943d;
   color: black;
-  top: 25.8%;
 }
 .chromatic-ds {
   background: #f2b82c;
   color: black;
-  top: 33.2%;
 }
 .chromatic-e {
   background: #edd929;
   color: black;
-  top: 40.6%;
 }
 .chromatic-f {
   background: #95c631;
   color: black;
-  top: 48%;
 }
 .chromatic-fs {
   background: #56a754;
   color: black;
-  top: 55.4%;
 }
 .chromatic-g {
   background: #11826d;
   color: white;
-  top: 62.8%;
 }
 .chromatic-gs {
   background: #3160a3;
   color: white;
-  top: 70.2%;
 }
 .chromatic-a {
   background: #5b37cc;
   color: white;
-  top: 77.6%;
 }
 .chromatic-as {
   background: #a347bf;
   color: white;
-  top: 85%;
 }
 .chromatic-b {
   background: #ea57b2;
   color: black;
-  top: 92.4%;
 }
